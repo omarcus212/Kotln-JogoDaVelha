@@ -8,6 +8,7 @@
     tools:context=".jogovelhaframe2"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#BADBFF"
 
     >
 

@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         val oneplayer = findViewById<Button>(R.id.oneplayer)
         oneplayer.setOnClickListener{chamanadoframeoneplayer(oneplayer)}
 
+        val twoplayer = findViewById<Button>(R.id.twoplayers)
+        twoplayer.setOnClickListener{chamanadoframeuserVSuser(twoplayer)}
 
             
 }
@@ -23,6 +25,14 @@ class MainActivity : AppCompatActivity() {
        val segundaFrame = Intent(this, jogovelhaframe2::class.java)
 
         startActivity(segundaFrame)
+
+    }
+
+
+    private fun chamanadoframeuserVSuser(twoplayer : Button){
+        val userFrame= Intent(this, jogadorVSjogador::class.java)
+
+        startActivity(userFrame)
 
     }
 

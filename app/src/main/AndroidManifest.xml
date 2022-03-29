@@ -10,12 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jogovelha">
         <activity
-            android:name=".jogovelhaframe2"
+            android:name=".jogadorVSjogador"
             android:exported="false"
             android:parentActivityName=".MainActivity"
             />
-
-
+        <activity
+            android:name=".jogovelhaframe2"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -6,15 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@android:color/holo_blue_light"
+    android:background="#BADBFF"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center_horizontal"
+     android:paddingTop="25dp"
     >
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="91dp"
+        android:layout_marginBottom="30dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="JOGO DA VELHA"
@@ -24,7 +26,7 @@
     <ImageView
         android:layout_width="347dp"
         android:layout_height="272dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@color/black"
         android:src="@drawable/revelha" />
 

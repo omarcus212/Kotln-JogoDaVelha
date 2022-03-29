@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jogadorVSjogador"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#BADBFF"
+    android:paddingTop="15mm"
+    >
+<TextView
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="user : 0   VS   0 : user2 "
+    android:gravity="center"
+    android:fontFamily="sans-serif-black"
+    android:textSize="20dp"
+    android:layout_marginBottom="2dp"
+    />
+
+    <LinearLayout
+        android:id="@+id/lly1"
+        android:layout_width="352dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <Button
+
+            android:id="@+id/btn1"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#0C0D0E"
+
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#0C0D0E" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:backgroundTint="#0C0D0E"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lly2"
+        android:layout_width="352dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+
+        <Button
+
+            android:id="@+id/btn4"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#0C0D0E" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#0C0D0E" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:backgroundTint="#0C0D0E" />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lly3"
+        android:layout_width="352dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+
+        <Button
+
+            android:id="@+id/btn7"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#0C0D0E" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#0C0D0E" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:backgroundTint="#0C0D0E" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
