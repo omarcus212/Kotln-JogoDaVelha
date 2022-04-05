@@ -29,13 +29,17 @@ class jogadorVSjogador : AppCompatActivity() {
         val btn9 = findViewById<Button>(R.id.btn9)
 
 
-            val btnList = arrayListOf<Button>(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9)
+        val btnList = arrayListOf<Button>(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9)
 
 
-
-        for (x in 0..btnList.size-1 ){
-            btnList[x].setOnClickListener { tdo(it as Button) }
+        btnList.forEach {
+            it.setOnClickListener { tdo(it as Button) }
         }
+
+
+//        for (x in 0..btnList.size-1 ){
+//            btnList[x].setOnClickListener { tdo(it as Button) }
+//        }
 
     }
 
@@ -43,35 +47,20 @@ class jogadorVSjogador : AppCompatActivity() {
     private fun tdo(btn: Button) {
         val result = findViewById<TextView>(R.id.result)
 
-        while (contador <=9) {
-           if(jogador % 2 != 0) {
-
-                btn.setText("x")
-                btn.textSize = 80f
-
-                 jogador++;
-                println(jogador);
-               btn.isClickable = true
-                break
-
-            }
-            if(jogador %2 != 1){
-
-                btn.setText("0")
-                btn.textSize = 80f
-
-                  jogador++;
-                println(jogador)
-                btn.isClickable = true
-                break
-            }
-
-            btn.isClickable = false
-
-            contador++;
-
+        if (jogador == 1) {
+            btn.setText("x")
+            btn.textSize = 80f
+            btn.setEnabled(false)
+            jogador = 2
+        }else if(jogador == 2){
+            btn.setText("o")
+            btn.textSize = 80f
+            btn.setEnabled(false)
+            jogador = 1
         }
 
+
+
     }
 
 
@@ -80,6 +69,3 @@ class jogadorVSjogador : AppCompatActivity() {
 
 
 
-//btnList[x].text = "x"
-//       btnList[x].textSize = 80f
-//        btnList[x].isClickable = false

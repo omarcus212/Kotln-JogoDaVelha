@@ -33,26 +33,17 @@
         <Button
 
             android:id="@+id/btn1"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
             android:layout_marginRight="5dp"
-            android:backgroundTint="#0C0D0E"
-
-            />
+            style="@style/button" />
 
         <Button
             android:id="@+id/btn2"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
             android:layout_marginRight="5dp"
-            android:backgroundTint="#0C0D0E" />
+            style="@style/button" />
 
         <Button
             android:id="@+id/btn3"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
-            android:backgroundTint="#0C0D0E"
-            />
+            style="@style/button" />
 
     </LinearLayout>
 
@@ -73,23 +64,17 @@
         <Button
 
             android:id="@+id/btn4"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
             android:layout_marginRight="5dp"
-            android:backgroundTint="#0C0D0E" />
+            style="@style/button" />
 
         <Button
             android:id="@+id/btn5"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
             android:layout_marginRight="5dp"
-            android:backgroundTint="#0C0D0E" />
+            style="@style/button" />
 
         <Button
             android:id="@+id/btn6"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
-            android:backgroundTint="#0C0D0E" />
+            style="@style/button" />
     </LinearLayout>
 
 
@@ -108,23 +93,17 @@
         <Button
 
             android:id="@+id/btn7"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
             android:layout_marginRight="5dp"
-            android:backgroundTint="#0C0D0E" />
+            style="@style/button" />
 
         <Button
             android:id="@+id/btn8"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
             android:layout_marginRight="5dp"
-            android:backgroundTint="#0C0D0E" />
+            style="@style/button" />
 
         <Button
             android:id="@+id/btn9"
-            android:layout_width="105dp"
-            android:layout_height="130dp"
-            android:backgroundTint="#0C0D0E" />
+            style="@style/button" />
 
     </LinearLayout>
 
