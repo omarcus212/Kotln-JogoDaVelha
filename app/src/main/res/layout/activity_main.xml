@@ -37,7 +37,8 @@
         android:layout_marginBottom="3dp"
         android:backgroundTint="@color/black"
         android:text="1 player"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        />
 
     <Button
         android:id="@+id/twoplayers"
